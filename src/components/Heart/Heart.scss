@@ -1,0 +1,324 @@
+.main {
+   display:block;
+   width:100%;
+   height: 100%;
+   background-color: #000000;
+   
+
+}
+@media only screen and (max-width: 600px) {
+   .main {
+      width:100%;
+   }
+ }
+
+.box{
+ position: relative;
+ display: flex;
+ float: left;
+ top:-250px;
+ width:60%;
+ height:700px;
+ background-color:black; 
+
+}
+
+@media only screen and (max-width: 600px) {
+   .box {
+      width:100%;
+      left:-300px;
+   }
+}
+
+.box1 {
+ position: relative;
+ width:100%;
+ height: auto;
+ left:300px;
+ background-repeat:no-repeat;
+ background-size: cover;
+ border:2px solid gold;
+ background-color:black;
+}
+@media only screen and (max-width: 600px) {
+   .box1 {
+      width:100%;
+      border:2px solid black;
+   }
+}
+
+
+
+.box img {
+position: relative;
+display:block;
+float: left;
+background-color:black;
+background-repeat:no-repeat;
+background-size: cover;
+color:black;
+border:2px solid gold;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+   .box img {
+      width:100%;
+   }
+}
+@media only screen and (max-width: 600px) {
+   .slider-wrapper {
+      width:100%;
+   }
+}
+
+
+
+.aboutme {
+position: relative;
+display: flex;
+ width:2000px;
+ height:550px;
+ top:750px;
+ left:-830px;
+ background-color: black;
+ border:2px solid gold;
+
+
+}
+@media only screen and (max-width: 600px) {
+   .aboutme {
+      top:780px;
+      width:100%;
+      height: 100%;
+      left:-220px;
+   }
+}
+
+
+
+.aboutme img {
+ width:1000px;
+ height:550px ;
+ 
+
+}
+@media only screen and (max-width: 600px) {
+   .aboutme img {
+      width:400px;
+      top:0px;
+      left:0px;
+      background-color: red;
+   }
+}
+
+
+
+
+.aboutme p {
+   position: relative;
+   width:500px;
+   height:200px;
+   left:10px;
+   color:gold;
+   background-color: black;
+   
+  }
+  @media only screen and (max-width: 600px) {
+   .aboutme p {
+      width:300px;
+      height:300px;
+      left:10px;
+      font-size:10px;
+      background-color: black;
+      overflow: hidden;
+      scroll-behavior: auto;
+   }
+}
+
+
+
+
+  .discount {
+   position: relative;
+   width: 1000px;
+   height: 400px;
+   top:1050px;
+   background-color:black;
+   border:2px solid gold;
+
+}
+
+@media only screen and (max-width: 600px) {
+   .discount {
+      width:auto;
+   }
+}
+
+
+
+.discount img {
+ position: absolute;
+   
+   width:1500px;
+   height: 400px;
+   left:10px;
+   overflow: hidden;
+   z-index: inherit;
+   background-color:black;
+  
+}
+@media only screen and (max-width: 600px) {
+   .discount img {
+      width:100%;
+   }
+}
+
+
+
+
+
+
+.happy{
+   position: relative;
+   width: 100%;
+   height: 400px;
+   top:1050px;
+   background-color:black;
+   border:2px solid gold;
+
+}
+@media only screen and (max-width: 600px) {
+   .happy {
+      width:auto;
+   }
+}
+
+
+
+
+
+
+.happy .img1 {
+    position: relative;
+    top:10px;
+     width:300px;
+     height:300px;
+     left:200px;
+     background-color:black;
+     border-radius:50%;
+     border:2px solid gold;
+
+}
+@media only screen and (max-width: 600px) {
+   .happy .img1  {
+      width:150px;
+      height:150px;
+      top:-300px;
+      left:0px;
+   }
+}
+
+
+
+
+.happy .img2 {
+   position: relative;
+   top:-290px;
+    width:300px;
+    height:300px;
+    left:10px;
+    background-color:black;
+    border-radius:50%; 
+    border:2px solid gold;
+}
+
+@media only screen and (max-width: 600px) {
+   .happy .img2  {
+      width:150px;
+      height:150px;
+      left:30px;
+      top:-300px;
+     
+   }
+}
+
+
+.happy .img3 {
+   position: relative;
+   top:-290px;
+    width:300px;
+    height:300px;
+    left:200px;
+    background-color:black;
+    border-radius:50%;
+    border:2px solid gold;
+}
+@media only screen and (max-width: 600px) {
+   .happy .img3  {
+      width:150px;
+      height:150px;
+      left:50px;
+      top:-300px;
+   }
+}
+
+
+
+
+
+
+.secand {
+
+position:relative;
+display:inline;
+top:1050px;
+width:500px;
+height:600px;
+left:-300px;
+
+
+}
+@media only screen and (max-width: 600px) {
+   .secand {
+      width:100%;
+   }
+}
+
+
+
+
+
+.secand img{
+position: relative; 
+width: 500px;
+left:30cd0px;
+min-height: 100px;
+left:0;
+background-repeat:no-repeat;
+background-size: cover;
+margin:0;
+padding:0;
+justify-content: space-between;
+
+}
+@media only screen and (max-width: 600px) {
+   .secand img {
+      width:100%;
+   }
+}
+
+
+
+
+.slider-wrapper  {
+
+  left:0px;
+}
+
+@media only screen and (max-width: 600px) {
+   .slider-wrapper {
+      width:100%;
+   }
+}

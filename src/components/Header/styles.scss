@@ -1,0 +1,219 @@
+
+
+
+
+.header {
+  height: 6.5rem;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+  position: static;
+  color:black;
+    background-color: gold;
+
+  .wrap {
+    position: relative;
+    height: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    @media only screen and (max-width: 600px) {
+      .wrap {
+         width:100px;
+          top:-120px;
+      }
+    }
+
+    .logo {
+      width: 13.0rem;
+      position: absolute;
+      top: 50%; left: 10px;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      transform: translateY(-50%);
+      
+       h3 {
+       background-color: gold;
+
+       }
+      img {
+        display: block;
+        width: 100%;
+        margin: 0;
+      }
+    }
+
+    nav {
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      color:black;
+      background-color: gold;
+
+      @media only screen and (max-width: 600px) {
+        nav {
+           width:300px;
+            right:30px;
+        }
+     }
+        
+
+      ul, ul li {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        color:black;
+      background-color: gold;
+      }
+
+      @media only screen and (max-width: 600px) {
+        ul,ul li {
+           width:300px;
+            right:30px;
+        }
+     }
+
+      ul {
+        text-align: center;
+        @media only screen and (max-width: 600px) {
+          .ul {
+             width:300px;
+              right:30px;
+          }
+       }
+
+        li {
+          display: inline-block;
+          margin: 0 1rem;
+          list-style-type: none;
+          color:black;
+      background-color: gold;
+      @media only screen and (max-width: 600px) {
+        .li {
+           width:300px;
+            right:30px;
+        }
+     }
+
+          a {
+            font-size: 2.8rem;
+            line-height: 6.5rem;
+            vertical-align: middle;
+            background-color: #e3e0cd;
+            color:black;
+            text-decoration: none;
+            border-radius: 10%;
+            text-transform: uppercase;
+            color:black;
+            background-color: gold;
+          }
+          @media only screen and (max-width: 600px) {
+            .Icons {
+               width:300px;
+                left:-530px;
+            }
+         }
+         .Icons {
+          width:50px;
+          height:30px;
+          color:black;
+          background-color: gold; 
+         }
+         @media only screen and (max-width: 600px) {
+          .Icons {
+             width:300px;
+              top:-120px;
+          }
+       }
+        
+         .Icons1 {
+          width:50px !important;
+          height:30px !important;
+          color:black;
+          background-color: gold; 
+         }
+        
+         .Icons2  {
+          width:50px !important;
+          height:30px !important;
+          color:black;
+          background-color: gold;
+         }
+         .Icons3 {
+          width:50px;
+          height:30px;
+          color:black;
+      background-color: gold;  
+         } 
+       
+         .Icons4 {
+          width:50px;
+          height:30px;
+          color:black;
+          background-color: gold;   
+         }
+       
+         .Icons5 {
+          width:50px;
+          height:30px;
+          color:black;
+          background-color: gold; 
+         }
+        .P {
+       font-size:10px;
+       color:black;
+      background-color: gold;
+        
+      }   
+          
+
+
+
+        }
+      }
+    }
+
+    .callToActions {
+      position: absolute;
+      top: 50%; right: 10px;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      transform: translateY(-50%);
+     
+      
+
+      ul, li {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 1.5rem;
+        
+
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        a, span {
+          font-size: 2.8rem;
+          line-height: 1;
+          color:black;
+          text-decoration: none;
+          text-transform: uppercase;
+          cursor: pointer;
+          background-color: #e3e0cd;  
+          border-radius: 10%;
+          color:black;
+         background-color: gold;
+        }
+         
+      }
+
+    }
+
+  }
+
+}
