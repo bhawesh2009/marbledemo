@@ -7,7 +7,7 @@
   padding: 0 10px;
   color:gold;
       background-color:black;
-
+}
 
   ul, li {
     list-style-type: none;
@@ -17,10 +17,10 @@
 
   ul {
     float: center;
-
+  }
     li {
       display: flex;
-
+    }
       a {
         display: flex;
         flex-direction: row;
@@ -29,8 +29,8 @@
         color:gold;
         padding: 10px;
         transition: all .4s ease-in-out;
-
-        &:hover {
+      }
+        a:hover {
           background-color: red;
           color: whitesmoke;
           transition: all .4s ease-in-out;
@@ -43,8 +43,4 @@
              background-color:black;
 
             } 
-      }
-    }
-  }
-
-}
+      
