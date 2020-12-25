@@ -1,5 +1,5 @@
 import React, { useState } from 'react';// eslint-disable-next-line 
-import './styles.scss';
+import './styles.css';
 
 const Modal = ({ hideModal, toggleModal, children }) => {
   if (hideModal) return null;

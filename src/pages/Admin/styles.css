@@ -10,6 +10,7 @@
 
 .admin {
   padding: 0 10px;
+}
 
   .callToActions {
     display: inline-block;
@@ -17,6 +18,7 @@
     padding: 0;
     height:60% ;
     margin: 0 auto;
+  }
 
     ul, li {
       margin: 0;
@@ -24,31 +26,33 @@
       list-style-type: none;
     }
 
-    ul {
-      li {
+    ul li {
+       
         display: inline-block;
-
       }
-    }
 
-  }
-}
 
-.manageProducts {
+.manageProducts h1{
 
-  h1 {
+
     margin-top: 1.5rem;
   }
 
-  table.results {
-    tr {
+  table.results tr {
+     
      width:40%;
      height:40%;
-      &:nth-child(even) {
+
+    }
+      
+    
+    tr:nth-child(even) {
         color:black;
       background-color: gold;
       }
 
+      
+      
       .thumb {
         width: 10.0rem;
         margin: 0 auto;
@@ -60,6 +64,4 @@
     
     
     
-    }
-  }
-}
+  

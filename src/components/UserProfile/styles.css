@@ -4,6 +4,7 @@
   margin: 3rem auto 1rem;
   color:black;
       background-color: gold;
+}
 
   ul, li {
     margin: 0;
@@ -13,21 +14,21 @@
       background-color: gold;
   }
 
-  ul {
-    li {
+  ul li {
+     
       display: block;
       width: 100%;
-
+  }
       .img {
         display: block;
         width: 5.0rem;
         margin: 0 auto;
-
+      }
         img {
           display: block;
           width: 100%;
         }
-      }
+      
 
       .displayName {
         display: block;
@@ -40,6 +41,4 @@
         color:black;
       background-color: gold;
       }
-    }
-  }
-}
+  

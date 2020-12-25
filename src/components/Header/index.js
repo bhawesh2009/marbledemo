@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { signOutUserStart } from './../../redux/User/user.actions';
 import { selectCartItemsCount } from './../../redux/Cart/cart.selectors';
-import './styles.scss';
+import './styles.css';
 import HomeIcon from '@material-ui/icons/Home';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';

@@ -1,17 +1,17 @@
 .footer {
   color:gold;
       background-color:black;
-
+}
 
   .wrap {
     width: 1450px;
     height: 30px;
     padding: 20px 10px;
     background-color: black;
-   
+  }  
     
  
-  }
+  
  .icons4{
    position: absolute;
   color:green;
@@ -21,7 +21,9 @@
   
 
  }
-.first {
+
+
+ .first {
   position: relative;
   display:flex;
   flex-direction: column;
@@ -36,4 +38,4 @@
 
 
 
-}
+

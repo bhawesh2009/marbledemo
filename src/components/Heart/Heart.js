@@ -1,5 +1,5 @@
 import React from 'react'
-import './Heart.scss'
+import './Heart.css'
 
 import photo2 from './photo/photo2.jpg';
 import photo3 from './photo/photo3.jpg';

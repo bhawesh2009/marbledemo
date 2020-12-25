@@ -2,7 +2,7 @@
   margin: 2rem auto;
   color:black;
       background-color: gold;
-
+}
   h1 {
     display: block;
     color:gold;
@@ -29,14 +29,14 @@
     margin: 0 auto;
     color:gold;
     background-color:black;
-
+  }
     table {
       width: 100%;
       color:gold;
       background-color:black;
 
     }
-  }
+  
 
   .checkoutHeader,
   .cart {
@@ -44,7 +44,7 @@
     text-align: left;
     color:gold;
     background-color:black;
-
+  }
 
     th,
     td {
@@ -53,16 +53,16 @@
       background-color:black;
 
     }
-  }
+  
 
-  .cartItem {
+  .cartItem, 
     td img {
       display: block;
       width: 100%;
       color:gold;
       background-color:black;
 
-    }
+    
   }
 
   .cartBtns {
@@ -79,4 +79,3 @@
       background-color:black;
   }
 
-}

@@ -6,13 +6,14 @@
   border: 1px solid black;
   color:gold;
       background-color:black;
+}   
 
 
   .wrap {
     padding: 10px;
     color:gold;
     background-color:black;
-
+  }
     h2 {
       font-size: 2.2rem;
       line-height: 1;
@@ -28,5 +29,4 @@
 
     }
 
-  }
-}
+  

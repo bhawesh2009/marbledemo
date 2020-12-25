@@ -9,11 +9,15 @@
   color:black;
     background-color: gold;
 
+}
+
   .wrap {
     position: relative;
     height: 100%;
     max-width: 1450px;
     margin: 0 auto;
+  }
+   
     @media only screen and (max-width: 600px) {
       .wrap {
          width:100px;
@@ -28,7 +32,7 @@
       -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
       transform: translateY(-50%);
-      
+    }   
        h3 {
        background-color: gold;
 
@@ -38,7 +42,7 @@
         width: 100%;
         margin: 0;
       }
-    }
+    
 
     nav {
       display: block;
@@ -48,7 +52,7 @@
       margin: 0;
       color:black;
       background-color: gold;
-
+    }
       @media only screen and (max-width: 600px) {
         nav {
            width:300px;
@@ -74,6 +78,8 @@
 
       ul {
         text-align: center;
+      }
+     
         @media only screen and (max-width: 600px) {
           .ul {
              width:300px;
@@ -86,7 +92,8 @@
           margin: 0 1rem;
           list-style-type: none;
           color:black;
-      background-color: gold;
+          background-color: gold;
+        }
       @media only screen and (max-width: 600px) {
         .li {
            width:300px;
@@ -168,9 +175,9 @@
 
 
 
-        }
-      }
-    }
+        
+      
+    
 
     .callToActions {
       position: absolute;
@@ -178,7 +185,7 @@
       -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
       transform: translateY(-50%);
-     
+    } 
       
 
       ul, li {
@@ -190,10 +197,10 @@
         display: inline-block;
         list-style-type: none;
         margin-right: 1.5rem;
-        
+      }  
+      
 
-
-        &:last-child {
+       li :last-child {
           margin-right: 0;
         }
 
@@ -210,10 +217,7 @@
          background-color: gold;
         }
          
-      }
+    
 
-    }
+  
 
-  }
-
-}
