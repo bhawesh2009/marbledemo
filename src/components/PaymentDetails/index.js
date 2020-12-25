@@ -10,7 +10,7 @@ import { saveOrderHistory } from './../../redux/Orders/orders.actions';
 import { createStructuredSelector } from 'reselect';
 import { useSelector, useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
-import './styles.css';
+import './styles.scss';
 
 const initialAddressState = {
   line1: '',

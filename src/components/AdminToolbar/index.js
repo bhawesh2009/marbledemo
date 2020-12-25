@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { checkUserIsAdmin } from './../../Utils';
-import './styles.css';
+import './styles.scss';
 import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount'
 
 const mapState = ({ user }) => ({

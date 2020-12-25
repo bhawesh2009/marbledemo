@@ -13,7 +13,7 @@ import blackm from './../../assets/blackm.jpg';
 import alaskagold from './../../assets/alaskagold.jpg';
 import alaska from './../../assets/alaska.jpg';
 import Heart from './../Heart/Heart';
-import './styles.css';
+import './styles.scss';
 
 
 

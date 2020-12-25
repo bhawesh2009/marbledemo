@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './styles.scss';
 import userIMG from './../../assets/user.png';
 
 const UserProfile = props => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Directory from './../../components/Directory';
 
-import './styles.css';
+import './styles.scss';
 
 const Homepage = props => {
   return (

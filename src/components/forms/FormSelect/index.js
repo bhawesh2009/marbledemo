@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './styles.scss';
 
 const FormSelect = ({ options, defaultValue, handleChange, label, ...otherProps }) => {
   if (!Array.isArray(options) || options.length < 1) return null;

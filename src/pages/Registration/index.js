@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Signup from './../../components/Signup';
-import './styles.css';
+import './styles.scss';
 
 const Registration = props => {// eslint-disable-next-line 
   return <Signup />;
