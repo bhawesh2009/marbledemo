@@ -87,7 +87,7 @@ display: flex;
 
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
    .aboutme {
       top:780px;
       width:100%;
@@ -104,7 +104,7 @@ display: flex;
  
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
    .aboutme img {
       width:400px;
       top:0px;
@@ -125,7 +125,7 @@ display: flex;
    background-color: black;
    
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 480px) {
    .aboutme p {
       width:300px;
       height:300px;
@@ -150,7 +150,7 @@ display: flex;
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
    .discount {
       width:auto;
    }
@@ -169,7 +169,7 @@ display: flex;
    background-color:black;
   
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
    .discount img {
       width:100%;
    }

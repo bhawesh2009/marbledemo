@@ -2,7 +2,7 @@
   height: 6.5rem;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
    background-color:gold;
-   @media only screen and (max-width: 600px) {
+   @media only screen and (min-width: 480px) {
     .header {
       position: relative; 
       width:100%;
@@ -35,11 +35,18 @@
     }
 
     nav {
-      display: block;
+      display:block;
       width: 100%;
       height: 100%;
       padding: 0;
       margin: 0;
+      @media only screen and (max-width: 480px) {
+        nav {
+          position: relative;  
+          width:100%;
+           left:-150px;
+        }
+     }
 
       ul, ul li {
         padding: 0;
@@ -48,7 +55,7 @@
           
       }
 
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 480px) {
         ul, ul li {
           position: relative; 
           width:100%;
@@ -61,12 +68,12 @@
         text-align: center;
           font-size:30px;
         li {
-          display: inline-block;
-          margin: 0 1rem;
+          display:inline-block;
+          margin: -200px;
           list-style-type: none;
           font-size:30px;
         
-          @media only screen and (max-width: 600px) {
+          @media only screen and (min-width: 480px) {
             li {
               position: relative; 
               width:100%;
@@ -77,17 +84,17 @@
           
 
         .Icons {
-        top:20px;  
+        top:15px;  
         width:30px;
         height:30px;
-        justify-content: space-between;
+        
 
         }
-        @media only screen and (max-width: 600px) {
-          .callToActions {
+        @media only screen and (min-width: 480px) {
+          .Icons {
             position: relative; 
-            width:100%;
-             left:60px;
+            width:50%;
+             left:-400px;
           }
        }
         
@@ -107,6 +114,11 @@
            height:40px;
          
           }
+         
+        
+        
+        
+        
         }
       }
     }
@@ -117,9 +129,9 @@
       -webkit-transform: translateY(-50%);
       -moz-transform: translateY(-50%);
       transform: translateY(-50%);
-      @media only screen and (max-width: 600px) {
+      @media only screen and (min-width: 480px) {
         .callToActions {
-          
+          position:absolute;
           width:100%;
            left:-900px;
         }
@@ -129,7 +141,7 @@
         left:-50px;
 
       }
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 480px) {
         ul {
           position: relative; 
           width:100%;
@@ -144,15 +156,21 @@
         font-size:50px;
         left:-50px;
       }
-      @media only screen and (max-width: 600px) {
+      @media only screen and (min-width: 480px) {
         ul, li {
-          position: relative; 
+          position: relative;  
           width:100%;
-           left:-900px;
+           left:-150px;
         }
      }
-      
-
+     @media only screen and (min-width: 480px) {
+      p {
+        position: relative;  
+        width:50%;
+         left:-150px;
+      }
+   }
+     
 
 
       li {
@@ -167,7 +185,7 @@
         &:last-child {
           margin-right: 0;
         }
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 480px) {
           li {
             position: relative; 
             width:100%;
@@ -181,12 +199,27 @@
           height:30px;
 
         }
+        @media only screen and (min-width: 480px) {
+          .Icons1 {
+            position: relative; 
+            width:100%;
+             left:-350px;
+          }
+       }
 
         .Icons2 {
           width: 30px;
           height:30px;
 
-        }
+        } 
+
+        @media only screen and (min-width: 480px) {
+          .Icons2 {
+            position: relative; 
+            width:100%;
+             left:-300px;
+          }
+       }
 
         a, span {
           font-size: 1.8rem;
@@ -197,14 +230,24 @@
           cursor: pointer;
         }
 
-          .Icons{
-
-           width:40px;
-           height: 40px;
-
+        @media only screen and (min-width: 480px) {
+          a, span {
+            position: relative; 
+            width:50%;
+           
+             left:-450px;
           }
-
-
+       }
+ 
+        
+       @media only screen and (min-width: 480px) {
+        .r {
+          position: relative; 
+          width:50%;
+           top:-20px;
+           left:-105px;
+        }
+     }
 
       }
 

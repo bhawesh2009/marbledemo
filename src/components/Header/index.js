@@ -65,7 +65,7 @@ const Header = props => {
               <li key={2}>
                 <span onClick={() => signOut()}>
                 
-                <p className="p">Logout</p>
+                <p >Logout</p>
                 </span>
               </li>
             ]}
@@ -74,13 +74,13 @@ const Header = props => {
               <li key={1}>
                 <Link to="/registration">
                
-                <p className="p">register</p>
+                <p className="r">register</p>
                 </Link>
               </li>,
               <li key={2}>
                 <Link to="/login">
                
-                <p className="p">Login</p>
+                <p className="l">Login</p>
                 </Link>
               </li>
             ]}
