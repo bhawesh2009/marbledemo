@@ -1,83 +1,111 @@
 
 
 
-
-.directory{
-  width:100%;
+.directory {
   height: 100%;
-  background-color:black;
-  left:0;
-  right:0;
+  background-color: black;
 
-  .wrap {
-    
-    display:flex;  
-    width:100%;
-    height: 100%;
-    background:black;
-    left:0px;
-    right:0;
-    
+  @media only screen and (max-width: 480px) {
+    .directory {
+       width:200%;
+       font-size: 0.8rem;
+       
+    }
+ }
 
-   
+
+
+
+  
+    .wrap {
+      display: flex;
+      width: 100%;
+      height: 100%;
+    background-color: black;
+
+    
+    @media only screen and (max-width: 480px) {
+      .wrap {
+         width:1450px;
+         font-size: 0.8rem;
+         
+      }
+   }
+  
+    
+    
+    
+    
     .item {
-      position: relative;  
+      position: relative;
       width: 50%;
       height: 50%;
-      top:20px;
-      left:0px;
-      align-items: center;
-      justify-content: center;
-      background-repeat:no-repeat;
+      float: left;
+      background-position: center;
+      background-repeat: no-repeat;
       background-size: cover;
-      margin:0;
-      padding:0;
-     justify-content: space-between;
-          
-    }  
+      background-color: black;
+   
+      @media only screen and (max-width: 480px) {
+        .item {
+           
+           font-size: 0.8rem;
+           
+        }
+     }
     
-
-        
+      
+      
+      
+      
+      
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0; left: 0;
+        background-color: rgba(0,0,0,0.3);
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+      }
 
       a {
-        position: absolute;      
+        position: absolute;
+        top: 20px; left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
         z-index: 2;
-        font-size: 1.5rem;
+        font-size: 1rem;
         line-height: 1;
-        top:0;
-        object-fit: contain;
-       
-        font-weight: 200;
+        font-weight: 400;
         text-transform: uppercase;
-        background:black ;
+        background:black;
+        color:white;
         padding: 10px 15px;
-      
-        
-        text-align:center;
-        color:gold;
-         border:2px solid gold;
-      }
-         
+        border: 1px solid gold;
 
-        a:hover {
+        &:hover {
+          background: black;
           
-          background:black;
-          right:0;
-          color:gold;
-          transform: rotate(360deg);
-        }    
-      
-       
-       
+        }
       }
-    }  
+        @media only screen and (max-width: 480px) {
+          a {
+             width:auto;
+             top:15px;
+             font-size: 0.5rem;
+             
+             
+          }
+       }
       
- 
-  
-    
-    
+      
+      
+      
+      
 
-    
-  
-    
-  
+    }
+  }
+
+}

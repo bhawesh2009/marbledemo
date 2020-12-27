@@ -210,7 +210,7 @@ const Admin = props => {
               handleChange={e => setProductPrice(e.target.value)}
             />
 
-            <CKEditor
+            <CKEditor className="ck"
               onChange={evt => setProductDesc(evt.editor.getData())}
             />
 
@@ -263,14 +263,14 @@ const Admin = props => {
                           </td>
                           <td>
                             <Button  id ="btn1" onClick={() => dispatch(deleteProductStart(documentID))}>
-                              Delete
+                              <h6>Delete</h6>
                             </Button>
                           </td>
                           <td>
                             <Button id ="btn1" onClick={() => dispatch(updateProductStart(documentID
                            
                             ))}>
-                              Update
+                             <h6>Update</h6>
                             </Button>
                           </td>
 

@@ -1,11 +1,33 @@
 .admin {
   padding: 0 10px;
+  width: 100%;
+  height:auto;
 
   .callToActions {
     display: inline-block;
     width: 100%;
+    height: 50px;
     padding: 0;
     margin: 0 auto;
+    @media only screen and (max-width: 480px) and (min-width: 0px){
+    .callToActions {
+background:none;
+}
+}
+
+@media only screen and (min-width: 480px) {
+  .modalWrap   {
+  position: relative;
+  width:30px;;
+  height:60px;
+  top:20px; 
+  left:200px;
+  z-index:1 ;
+ 
+}
+
+
+
 
     ul, li {
       margin: 0;
@@ -35,11 +57,39 @@
       &:nth-child(even) {
         background-color: #d3d3d3;
       }
-
+    
       .thumb {
         width: 15.0rem;
         margin: 0 auto;
       }
+
+      @media only screen and (max-width: 480px) {
+        #btn1 {
+          position: relative; 
+          width:50px;
+          height:30px ;
+
+           top:50px;
+           left:-230px;
+           overflow: hidden;
+        }
+     }
+     @media only screen and (max-width: 600px) {
+      #btn1 h6{
+        position: absolute;
+        top:-20px; 
+        left:-2px;
+       
+      }
+   }  
+ .formInput {
+         z-index: inherit inherit;
+
+ }
+      
+  
+
+}  
 
     }
   }

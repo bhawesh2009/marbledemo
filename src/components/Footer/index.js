@@ -7,7 +7,7 @@ const Footer = props => {
   return (
     <footer className="footer">
       <div className="wrap">
-        © Marble world
+       
       </div>
       
 
